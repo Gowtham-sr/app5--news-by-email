@@ -1,14 +1,13 @@
 import requests
 from send_email import send_email
 
-topic = "fitness"
+topic = "Love"
 api_key = "901c8d05a95b4d8aaeebb17e1a4cf62d"
 
 # url got it from newsapi.org
 # q, from, sortBy, apikey, language are parameters and & is the separator
 url = "https://newsapi.org/v2/everything?" \
       f"q={topic}&" \
-      "from=2023-04-08&" \
       "sortBy=publishedAt&" \
       "apiKey=901c8d05a95b4d8aaeebb17e1a4cf62d&" \
       "language=en"
